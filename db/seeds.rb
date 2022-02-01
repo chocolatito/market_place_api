@@ -10,6 +10,8 @@ User.delete_all
 
 3.times do
   user = User.create! email: Faker::Internet.email, password: 'locadex1234'
+  # eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE2NDM4MDMxMTR9.xA7c52BBVgwrj0lsV0wWcHkkTluhLC_FedNQfVm4Y3g
+  # curl --header "Authorization=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJleHAiOjE2NDM4MDMxMTR9.xA7c52BBVgwrj0lsV0wWcHkkTluhLC_FedNQfVm4Y3g" http://localhost:3000/api/v1/products
   puts "Created a new user: #{user.email}"
 
   2.times do
