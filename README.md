@@ -9,5 +9,5 @@
 Basado en el libro [***API on Rails: 6***](https://github.com/madeindjs/api_on_rails) - [___Alexandre Rousseau___](https://github.com/madeindjs/)
 
 * Database design  
-![](img/data_model.png)
+![](imges-for-readme/data_model.png)
 
